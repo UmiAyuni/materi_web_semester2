@@ -1,0 +1,1 @@
+document.write(" Saya Sedang Belajar Exsternal JS....!!!")

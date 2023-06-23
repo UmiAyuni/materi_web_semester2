@@ -1,0 +1,1 @@
+console.log(" Saya Sedang Belajar Exsternal JS....!!!")

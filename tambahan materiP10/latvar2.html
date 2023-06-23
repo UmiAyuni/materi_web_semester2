@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    // 1.string 2. integer 3. real 4. boolean
+    // aritmatika, relasi, logika
+
+    // + - / * %
+    // > < >= <= != ==
+    // and (&&) or(||) not (!)
+
+    var a=8;
+    var b=5;
+    var hasil=a+b;
+
+    document.write(hasil); 
+
+    var a=8;
+    var b=5;
+    var hasil=0;
+
+    hasil=a+b;
+    document.write(`penjumlahan untuk ${a} + ${b} adalah: ${hasil}<br>`);
+    
+
+    hasil=a - b;
+    document.write(`pengurangan untuk ${a} - ${b} adalah: ${hasil} <br>`);
+    
+    hasil=a * b;
+    document.write(`perkalian untuk ${a} * ${b} adalah: ${hasil}<br>`);
+    
+    // relasi
+
+    var nil1=8;
+    var nil2=5;
+    var nil3=8;
+    var hasil=0;
+
+    hasil=nil1 > nil2;
+    document.write(`hasil untuk ${nil1} >  ${nil2} adalah: ${hasil}<br>`);
+    
+    hasil=nil1 < nil2;
+    document.write(`hasil untuk ${nil1} <  ${nil2} adalah: ${hasil}<br>`);
+    
+    hasil=nil1 == nil2;
+    document.write(`hasil untuk ${nil1} ==  ${nil2} adalah: ${hasil}<br>`);
+    
+    hasil=nil1 == nil3;
+    document.write(`hasil untuk ${nil1} ==  ${nil3} adalah: ${hasil}<br>`);
+    
+    hasil=nil1 != nil2;
+    document.write(`hasil untuk ${nil1} !=  ${nil2} adalah: ${hasil}<br>`);
+    
+    
+    // logika
+
+    var nil1=8;
+    var nil2=5;
+    
+    benar=nil1 > nil2;
+    salah=nil2 > nil1;
+    var hasil=0;
+
+    hasil= benar && salah;
+    document.write(`hasil untuk ${benar} AND ${salah} adalah: ${hasil}<br>`);
+    
+    hasil= benar || salah;
+    document.write(`hasil untuk ${benar} OR ${salah} adalah: ${hasil}<br>`);
+    
+    hasil= ! salah;
+    document.write(`hasil untuk ${benar} NOT ${salah} adalah: ${hasil}<br>`);
+    
+    hasil= ! benar;
+    document.write(`hasil untuk ${benar} NOT ${salah} adalah: ${hasil}<br>`);
+    
+
+</script>
+
+</body>
+</html>

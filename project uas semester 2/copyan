@@ -1,0 +1,13 @@
+pop(A)
+pop(A)
+pop(A)
+print("Ukuran sepatu yang ada pada rak saat ini : ", A)
+top(A)
+size(A)
+print()
+
+push(A, 37)
+push(A, 39)
+print("Ukuran sepatu yang ada pada rak saat ini : ", A)
+top(A)
+size(A)

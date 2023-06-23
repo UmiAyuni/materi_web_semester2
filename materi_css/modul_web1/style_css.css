@@ -1,0 +1,44 @@
+/*pseuduo class link*/
+.hello:link{
+    color:orange;
+}
+.hello:hover{
+    color :green;
+    font-family: Arial;
+    font-size: 20px;
+}
+.hello:active{
+    font-style: italic;
+}
+.hello:visited{
+    color:rebeccapurple;
+}
+
+/*css carikan a, didalam li yang merupakan anak pertama*/
+    li:first-child a{
+        color :gold;
+    }
+
+/*css carikan a, didalam li yang merupakan anak terakhir*/
+li:last-child a{
+    color :blueviolet;
+}
+
+/*css carikan a, didalam li yang merupakan anak genap*/
+li:nth-child(even) a{
+    color :greenyellow;
+}
+/*css carikan a, didalam li yang merupakan anak ganjil*/
+li:nth-child(odd) a{
+    color :blue;
+}
+
+/*css carikan a, didalam li yang urutannya pertama */
+p:first-of-type {
+    color:brown;
+}
+
+/*css carikan a, didalam li yang urutannya terakhir */
+p:last-of-type {
+    color:olivedrab;
+}

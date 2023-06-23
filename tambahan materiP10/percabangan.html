@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>percabangan</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+    // if else if else if else
+
+    // jika nilai>=80 maka keterangannya "LULUS istimewa"
+    //  jika nilai>=78 maka keterangannya "LULUS baik"
+    //  selain itu "tidak LULUS"
+    // untuk di document.write gunakan tanda kutip dekat nomor 1 (` `)
+    var nilai=80;
+    var keterangan="";
+
+    if (nilai>=80)
+        {
+            keterangan="Lulus istimewa";}
+    else if (nilai>=78)
+        {
+            keterangan="Lulus baik";}
+    else
+        {
+            keterangan="Tidak Lulus";
+        }
+
+        document.write(`Hasil keterangan dari nilai ${nilai} ini adalah:${keterangan}`);
+    </script>
+</body>
+</html>
